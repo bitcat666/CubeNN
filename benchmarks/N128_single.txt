@@ -1,0 +1,7 @@
+CubeNN — N=128 B=8 HDIM=512 depth=0 branch=8 maxCubes=1 FP16
+Per cube: 6 faces × 16384 neurons = 98304 total
+
+Processing 1 cubes (single)...
+Face0[0:8]: 0.7305, -0.1327, -0.4302, -0.0555, 1.5225, 1.2881, -0.3489, -0.9390
+Stats: min=-3.5605 max=2.9414 mean=0.0390
+Time: 116ms | 116ms/cube | 1 cubes

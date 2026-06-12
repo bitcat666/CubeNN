@@ -1,0 +1,7 @@
+CubeNN — N=64 B=4 HDIM=256 depth=2 branch=4 maxCubes=21 FP16
+Per cube: 6 faces × 4096 neurons = 24576 total
+
+Processing 21 cubes (tree)...
+Face0[0:8]: 0.7178, 0.0709, -0.9370, 0.4917, 0.9390, 1.4756, 0.3828, -0.5562
+Stats: min=-1.7734 max=1.9824 mean=0.0607
+Time: 817ms | 39ms/cube | 21 cubes
