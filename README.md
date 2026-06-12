@@ -30,14 +30,14 @@ That's CubeNN.
 
 ### Block-Sparse Hierarchical Attention
 
-| Scale | Full Attention | CubeNN | Reduction |
-|-------|---------------|--------|-----------|
-| N=32 (6K neurons) | 201.6M FLOP/layer | **0.37M** | 544× |
-| N=64 (25K neurons) | 3.2B FLOP/layer | **2.2M** | 1,454× |
-| N=128 (98K neurons) | 137B FLOP/layer | **13M** | 10,500× |
-| N=256 | 2.2T FLOP/layer | **52M** | 42,300× |
+| Scale | Full Attention (同等神经元) | CubeNN | Reduction |
+|-------|---------------------------|--------|-----------|
+| 6K 神经元 (N=32) | 201.6M FLOP/层 | **0.37M** | 544× |
+| 25K 神经元 (N=64) | 3.2B FLOP/层 | **2.2M** | 1,454× |
+| 98K 神经元 (N=128) | 137B FLOP/层 | **13M** | 10,500× |
+| 393K 神经元 (N=256) | 2.2T FLOP/层 | **52M** | 42,300× |
 
-At N=128, full attention needs **38GB** just for the score matrix. CubeNN uses **467KB**.
+At 98K neurons, full attention needs **38GB** just for the score matrix. CubeNN uses **467KB**.
 
 ### Cube Cascade: Tree + Chain Inference
 
