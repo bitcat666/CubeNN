@@ -37,7 +37,7 @@ That's CubeNN.
 | 98K 神经元 (N=128) | 137B FLOP/层 | **13M** | 10,500× |
 | 393K 神经元 (N=256) | 2.2T FLOP/层 | **52M** | 42,300× |
 
-At 98K neurons, full attention needs **38GB** just for the score matrix. CubeNN uses **467KB**.
+At 98K neurons, full attention needs **38GB** just for the score matrix. CubeNN's entire model fits in **1.9MB**.
 
 ### Cube Cascade: Tree + Chain Inference
 
